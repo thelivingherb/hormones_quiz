@@ -431,7 +431,7 @@ export default function HormoneQuiz() {
         setStage("calculating");
         const result = calculateResult(newAnswers);
         const url = getRedirectUrl(result);
-        setTimeout(() => { window.location.href = url; }, 2000);
+        setTimeout(() => { window.top.location.href = url; }, 2000);
       }
     }, 320);
   };
