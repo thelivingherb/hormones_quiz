@@ -15,7 +15,7 @@ const ARCHETYPES = {
 
 // ─── GHL BASE URL ─────────────────────────────────────────────────────────────
 // Replace with your actual GHL funnel domain before deploying
-const GHL_BASE_URL = "https://go.thelivingherb.com";
+const GHL_BASE_URL = "https://thelivingherb.com";
 
 // ─── QUESTIONS ───────────────────────────────────────────────────────────────
 // HC = The Live Wire
